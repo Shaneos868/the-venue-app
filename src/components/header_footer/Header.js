@@ -16,6 +16,7 @@ class Header extends Component {
     window.addEventListener('scroll', this.handleScroll);
   }
 
+  // Checks for scrolling and shows transparency.
   handleScroll = () => {
     if (window.scrollY > 0) {
       this.setState({
