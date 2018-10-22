@@ -37,6 +37,7 @@ class CountDown extends Component {
   }
 
   render() {
+    // Visual Timer.
     return (
       // Slides in from the Left.
       <Slide left delay={1000}>
